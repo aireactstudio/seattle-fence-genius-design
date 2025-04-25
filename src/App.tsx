@@ -1,9 +1,19 @@
+
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Index from "./pages/Index";
+import HomePage from "./pages/HomePage";
+import CedarFencePage from "./pages/CedarFencePage";
+import CustomFenceDesignPage from "./pages/CustomFenceDesignPage";
+import FenceSoftwarePage from "./pages/FenceSoftwarePage";
+import ResidentialFencingPage from "./pages/ResidentialFencingPage";
+import WoodFencePage from "./pages/WoodFencePage";
+import WoodGatePage from "./pages/WoodGatePage";
+import GalleryPage from "./pages/GalleryPage";
+import ContactPage from "./pages/ContactPage";
+import FinancingPage from "./pages/FinancingPage";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -15,8 +25,16 @@ const App = () => (
       <Sonner />
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Index />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+          <Route path="/" element={<HomePage />} />
+          <Route path="/cedar-fence-installation" element={<CedarFencePage />} />
+          <Route path="/custom-fence-design" element={<CustomFenceDesignPage />} />
+          <Route path="/custom-fence-software" element={<FenceSoftwarePage />} />
+          <Route path="/residential-fencing" element={<ResidentialFencingPage />} />
+          <Route path="/wood-fence-installation" element={<WoodFencePage />} />
+          <Route path="/wood-gate-installation" element={<WoodGatePage />} />
+          <Route path="/gallery" element={<GalleryPage />} />
+          <Route path="/contact-us" element={<ContactPage />} />
+          <Route path="/financing" element={<FinancingPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
