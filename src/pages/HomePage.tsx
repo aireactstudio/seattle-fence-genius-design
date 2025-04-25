@@ -112,61 +112,6 @@ const HomePage = () => {
       {/* Fence Genius Showcase */}
       <FenceGeniusShowcase />
 
-      {/* Innovation Section */}
-      <section className="bg-gray-50 py-20">
-        <div className="container-custom">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">Innovative Fence Design & Installation</h2>
-              <p className="text-lg text-gray-700 mb-6">
-                At Seattle Fence, we've revolutionized the fence installation process using our proprietary Fence Genius software. This technology allows us to:
-              </p>
-              <ul className="space-y-4">
-                <li className="flex items-start">
-                  <svg className="h-6 w-6 text-cedar mt-1 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span className="ml-3">Precisely measure your property for a perfect fit</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="h-6 w-6 text-cedar mt-1 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span className="ml-3">Design custom panels that follow your terrain</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="h-6 w-6 text-cedar mt-1 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span className="ml-3">Pre-build your fence in a climate-controlled environment</span>
-                </li>
-                <li className="flex items-start">
-                  <svg className="h-6 w-6 text-cedar mt-1 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span className="ml-3">Install your fence quickly and quietly with minimal disruption</span>
-                </li>
-              </ul>
-              <div className="mt-8">
-                <Button asChild className="bg-cedar hover:bg-cedar-dark text-white">
-                  <Link to="/custom-fence-software">Discover Fence Genius</Link>
-                </Button>
-              </div>
-            </div>
-            <div className="relative">
-              <img 
-                src="https://seattlefence.com/wp-content/uploads/2024/11/Seattle-Fence-Img02.png" 
-                alt="Fence Genius software visualization" 
-                className="rounded-lg shadow-xl"
-              />
-              <div className="absolute -bottom-6 -left-6 bg-forest p-4 rounded-lg shadow-lg text-white">
-                <p className="font-semibold">Custom Design</p>
-                <p className="text-sm">Built precisely for your property</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Services Section */}
       <section className="section-padding">
