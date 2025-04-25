@@ -82,7 +82,7 @@ const HomePage = () => {
       <section className="relative min-h-[80vh] flex items-center">
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://www.myfence.com/wp-content/uploads/2024/02/HomePage-fence1.webp" 
+            src="https://images.unsplash.com/photo-1472396961693-142e6e269027"
             alt="Beautiful cedar fence" 
             className="w-full h-full object-cover"
           />

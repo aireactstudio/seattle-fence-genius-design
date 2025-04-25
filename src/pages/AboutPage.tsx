@@ -1,4 +1,3 @@
-
 import PageLayout from "@/components/layout/PageLayout";
 import PageHeader from "@/components/ui/PageHeader";
 import AboutSection from "@/components/sections/AboutSection";
@@ -11,7 +10,7 @@ const AboutPage = () => {
       <PageHeader 
         title="About Seattle Fence"
         subtitle="Family-owned innovators in the fencing industry since 1994"
-        backgroundImage="https://www.myfence.com/wp-content/uploads/2024/02/Fence-right.webp"
+        backgroundImage="https://images.unsplash.com/photo-1433086966358-54859d0ed716"
       />
       
       <AboutSection />

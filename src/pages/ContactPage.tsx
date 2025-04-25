@@ -13,7 +13,7 @@ const ContactPage = () => {
       <PageHeader 
         title="Contact Us"
         subtitle="Get in touch with our team to discuss your fence project."
-        backgroundImage="https://www.myfence.com/wp-content/uploads/2024/02/Fence-left.webp"
+        backgroundImage="https://images.unsplash.com/photo-1500673922987-e212871fec22"
       />
       
       <section className="section-padding">

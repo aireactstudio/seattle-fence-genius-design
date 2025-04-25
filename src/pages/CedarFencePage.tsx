@@ -1,4 +1,3 @@
-
 import PageLayout from "@/components/layout/PageLayout";
 import PageHeader from "@/components/ui/PageHeader";
 import SectionHeading from "@/components/ui/SectionHeading";
@@ -10,7 +9,7 @@ const CedarFencePage = () => {
       <PageHeader 
         title="Cedar Fence Installation"
         subtitle="Premium Western Red Cedar fences designed and built for Seattle homes and businesses."
-        backgroundImage="https://www.myfence.com/wp-content/uploads/2024/02/HomePage-fence1.webp"
+        backgroundImage="https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9"
       />
       
       <section className="section-padding">
