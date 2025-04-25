@@ -1,37 +1,61 @@
-
 import PageLayout from "@/components/layout/PageLayout";
 import PageHeader from "@/components/ui/PageHeader";
 import SectionHeading from "@/components/ui/SectionHeading";
 import CallToAction from "@/components/ui/CallToAction";
+import { Code, Settings, Sparkles, Clock } from "lucide-react";
 
 const FenceSoftwarePage = () => {
   return (
     <PageLayout>
       <PageHeader 
-        title="Fence Genius Software"
-        subtitle="Our revolutionary approach to fence design and installation."
+        title="Our Revolutionary Fence Genius Software"
+        subtitle="Exclusive proprietary technology developed by Seattle Fence to transform the fence industry"
         backgroundImage="https://www.myfence.com/wp-content/uploads/2024/02/Fence-left.webp"
       />
       
-      <section className="section-padding">
+      <section className="section-padding bg-white">
         <div className="container-custom">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <SectionHeading 
-                title="Innovation in Fence Construction"
-                subtitle="Experience the future of fencing with our proprietary Fence Genius technology."
+                title="Fence Genius: Our Exclusive Innovation"
+                subtitle="We developed Fence Genius to revolutionize how fences are designed, built, and installed"
               />
               <p className="text-gray-700 mb-6">
-                At Seattle Fence, we're pioneering a revolutionary approach to fence design and installation 
-                with our proprietary Fence Genius software. This innovative technology represents a significant 
-                leap forward in the fence industry, enabling us to create custom, precision-engineered fences 
-                with unmatched quality and efficiency.
+                As the creators and owners of Fence Genius software, we've revolutionized the fence industry with our 
+                proprietary technology. This innovative platform enables us to design, prefabricate, and install custom 
+                fences with unprecedented precision and efficiency.
               </p>
-              <p className="text-gray-700 mb-6">
-                We're one of the first fence contractors in the nation to leverage this advanced software, 
-                allowing us to take fence design and construction to new heights. The result is a superior 
-                product, smoother installation process, and exceptional customer experience from start to finish.
-              </p>
+              <div className="space-y-4">
+                <div className="flex items-start gap-3">
+                  <Sparkles className="h-6 w-6 text-cedar mt-1" />
+                  <div>
+                    <h4 className="font-semibold mb-1">Precise Measurements & Design</h4>
+                    <p className="text-gray-600">Our iOS app captures exact measurements between posts and terrain contours</p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-3">
+                  <Settings className="h-6 w-6 text-cedar mt-1" />
+                  <div>
+                    <h4 className="font-semibold mb-1">Pre-fabrication Excellence</h4>
+                    <p className="text-gray-600">Custom panels built in our climate-controlled facility for superior quality</p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-3">
+                  <Clock className="h-6 w-6 text-cedar mt-1" />
+                  <div>
+                    <h4 className="font-semibold mb-1">Fast & Quiet Installation</h4>
+                    <p className="text-gray-600">2-hour installations with pre-built panels for minimal disruption</p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-3">
+                  <Code className="h-6 w-6 text-cedar mt-1" />
+                  <div>
+                    <h4 className="font-semibold mb-1">Smart Algorithms</h4>
+                    <p className="text-gray-600">Automated calculations for perfect terrain adaptation and material optimization</p>
+                  </div>
+                </div>
+              </div>
             </div>
             <div>
               <img 
@@ -39,6 +63,11 @@ const FenceSoftwarePage = () => {
                 alt="Fence Genius software visualization" 
                 className="rounded-lg shadow-xl"
               />
+              <div className="mt-4 bg-forest-light p-4 rounded-lg">
+                <p className="text-sm text-forest-dark font-medium">
+                  See your custom fence design before installation with our proprietary Fence Genius visualization technology
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -87,7 +116,7 @@ const FenceSoftwarePage = () => {
               </p>
               <div className="h-48 bg-gray-100 rounded flex items-center justify-center">
                 <svg className="h-16 w-16 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
                 </svg>
               </div>
             </div>
@@ -196,9 +225,10 @@ const FenceSoftwarePage = () => {
       
       <CallToAction 
         title="Experience the Fence Genius Difference"
-        subtitle="Contact us today to schedule a consultation and see how our innovative technology can transform your fence project."
+        subtitle="Get a perfect fence with our innovative technology. Contact us for a consultation today."
         buttonText="Get Started Today"
         buttonLink="/contact-us"
+        backgroundImage="https://www.myfence.com/wp-content/uploads/2024/02/Fence-left.webp"
       />
     </PageLayout>
   );
