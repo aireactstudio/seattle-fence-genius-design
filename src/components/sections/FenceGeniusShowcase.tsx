@@ -1,3 +1,4 @@
+
 import { Code, Clock, Sparkles, Brain, Globe, BarChart, FileCheck, Building2 } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 import { Link } from 'react-router-dom';
@@ -78,7 +79,7 @@ const FenceGeniusShowcase = () => {
           </div>
           
           <div className="order-1 lg:order-2 relative">
-            <div className="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden shadow-xl">
+            <div className="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden shadow-xl bg-[#18222E]">
               <iframe 
                 src="https://www.youtube.com/embed/LM8o-rU8rag"
                 title="Fence Genius in Action"
