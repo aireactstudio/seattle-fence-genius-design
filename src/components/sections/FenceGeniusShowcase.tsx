@@ -1,4 +1,3 @@
-
 import { Code, Clock, Sparkles, Brain, Globe, BarChart, FileCheck, Building2 } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 import { Link } from 'react-router-dom';
@@ -79,11 +78,15 @@ const FenceGeniusShowcase = () => {
           </div>
           
           <div className="order-1 lg:order-2 relative">
-            <img 
-              src="https://seattlefence.com/wp-content/uploads/2024/11/Seattle-Fence-Img02.png"
-              alt="Fence Genius software visualization"
-              className="rounded-lg shadow-xl"
-            />
+            <div className="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden shadow-xl">
+              <iframe 
+                src="https://www.youtube.com/embed/LM8o-rU8rag"
+                title="Fence Genius in Action"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="w-full h-full"
+              />
+            </div>
             <div className="absolute -bottom-6 -right-6 bg-white p-6 rounded-lg shadow-lg">
               <p className="text-lg font-semibold text-forest mb-1">Revolutionary Technology</p>
               <p className="text-sm text-gray-600">Designed & owned exclusively by Seattle Fence</p>

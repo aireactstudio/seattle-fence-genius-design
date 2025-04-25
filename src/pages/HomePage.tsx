@@ -57,21 +57,21 @@ const HomePage = () => {
 
   const featuredProjects = [
     {
-      imageUrl: "https://seattlefence.com/wp-content/uploads/elementor/thumbs/Wood-Fence-About-Img-qwginn1gl70zou99y2as08qqld07ea0dwivnuhyj7c.jpg",
-      title: "Modern Horizontal Cedar Fence",
-      description: "Custom design with horizontal boards for a contemporary Seattle home.",
+      imageUrl: "/lovable-uploads/f8f1f382-7e2e-4f9f-99ec-72f7b817ad47.png",
+      title: "Horizontal Cedar Privacy Fence",
+      description: "Premium horizontal cedar fence with clean lines and modern aesthetics",
       link: "/gallery"
     },
     {
-      imageUrl: "http://seattlefence.com/wp-content/uploads/elementor/thumbs/Custom-Fence-About-Img-qwgio0778vj07dq5t7zjz5f6wr7ce1gmmc0gkdf0s8.jpg",
-      title: "Custom Gate Installation",
-      description: "Matching cedar gate with custom hardware for enhanced curb appeal.",
+      imageUrl: "/lovable-uploads/d6aeb487-eef2-4451-a74d-19f62d2e2868.png",
+      title: "Custom Height Fence Design",
+      description: "Stepped cedar fence following natural terrain gradient",
       link: "/gallery"
     },
     {
-      imageUrl: "https://seattlefence.com/wp-content/uploads/2024/11/Seattle-Fence-Img03.png",
-      title: "Privacy Fence Solution",
-      description: "Tall cedar fence designed for maximum privacy in an urban setting.",
+      imageUrl: "/lovable-uploads/7a3eee8d-5266-4b5f-a486-30e5b3c0e127.png",
+      title: "Modern Semi-Privacy Fence",
+      description: "Horizontal slat design offering partial privacy with style",
       link: "/gallery"
     }
   ];

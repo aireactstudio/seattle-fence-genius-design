@@ -1,8 +1,7 @@
-
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from "@/components/ui/button";
-import { Menu, X, ChevronDown } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -10,7 +9,6 @@ import {
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
-  navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 import { cn } from "@/lib/utils";
 
@@ -33,32 +31,32 @@ const Navbar = () => {
     };
   }, []);
 
-  // Define the services submenu items
+  // Define the services submenu items with updated structure
   const fencingServicesItems = [
     { 
-      title: "Cedar Fence Installation", 
-      path: "/cedar-fence-installation", 
-      description: "Premium Western Red Cedar fences designed for Seattle homes"
+      title: "Cedar Fencing",
+      path: "/cedar-fence-installation",
+      description: "Premium Western Red Cedar fences designed for maximum durability and beauty"
     },
     {
-      title: "Wood Fence Installation",
+      title: "Wood Fencing",
       path: "/wood-fence-installation",
-      description: "High-quality wood fencing solutions for durability and aesthetics"
+      description: "Traditional and modern wood fencing solutions for any style"
     },
     {
-      title: "Wood Gate Installation",
-      path: "/wood-gate-installation",
-      description: "Custom designed gates that complement your fence perfectly"
-    },
-    {
-      title: "Custom Fence Design",
+      title: "Custom Design",
       path: "/custom-fence-design",
-      description: "Create a unique fence that perfectly matches your home's style"
+      description: "Unique fence designs tailored to your specific needs and preferences"
     },
     {
       title: "Residential Fencing",
       path: "/residential-fencing",
-      description: "Beautiful fencing solutions for homes throughout Seattle"
+      description: "Complete fencing solutions for homes throughout Seattle"
+    },
+    {
+      title: "Wood Gates",
+      path: "/wood-gate-installation",
+      description: "Custom designed gates to perfectly match your fence"
     }
   ];
 
@@ -89,8 +87,10 @@ const Navbar = () => {
           <NavigationMenu>
             <NavigationMenuList>
               <NavigationMenuItem>
-                <NavigationMenuTrigger className="px-3 py-2 text-sm font-medium hover:text-cedar transition-colors duration-300 bg-transparent hover:bg-transparent focus:bg-transparent">
-                  Services <ChevronDown className="h-4 w-4 ml-1" />
+                <NavigationMenuTrigger 
+                  className="px-3 py-2 text-sm font-medium hover:text-cedar transition-colors duration-300 bg-transparent hover:bg-transparent focus:bg-transparent"
+                >
+                  Services
                 </NavigationMenuTrigger>
                 <NavigationMenuContent>
                   <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
@@ -168,7 +168,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Mobile Navigation */}
+      {/* Mobile Navigation with updated structure */}
       {isOpen && (
         <div className="md:hidden bg-white shadow-md">
           <div className="container-custom py-4">
