@@ -1,4 +1,3 @@
-
 import { Home, PenTool, Sparkles, Building, Fence } from "lucide-react";
 import { Link } from 'react-router-dom';
 import PageLayout from "@/components/layout/PageLayout";
@@ -8,6 +7,7 @@ import TestimonialCard from "@/components/ui/TestimonialCard";
 import SectionHeading from "@/components/ui/SectionHeading";
 import FenceProject from "@/components/ui/FenceProject";
 import CallToAction from "@/components/ui/CallToAction";
+import FenceGeniusShowcase from "@/components/sections/FenceGeniusShowcase";
 
 const HomePage = () => {
   const services = [
@@ -108,6 +108,9 @@ const HomePage = () => {
           </div>
         </div>
       </section>
+
+      {/* Fence Genius Showcase */}
+      <FenceGeniusShowcase />
 
       {/* Innovation Section */}
       <section className="bg-gray-50 py-20">
