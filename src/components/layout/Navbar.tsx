@@ -79,7 +79,7 @@ const Navbar = () => {
         <div className="hidden md:flex items-center space-x-1">
           <Link 
             to="/" 
-            className="px-3 py-2 text-sm font-medium hover:text-cedar transition-colors duration-300"
+            className="px-3 py-2 text-base font-medium hover:text-cedar transition-colors duration-300"
           >
             Home
           </Link>
@@ -88,7 +88,7 @@ const Navbar = () => {
             <NavigationMenuList>
               <NavigationMenuItem>
                 <NavigationMenuTrigger 
-                  className="px-3 py-2 text-sm font-medium hover:text-cedar transition-colors duration-300 bg-transparent hover:bg-transparent focus:bg-transparent"
+                  className="px-3 py-2 text-base font-medium hover:text-cedar transition-colors duration-300 bg-transparent hover:bg-transparent focus:bg-transparent"
                 >
                   Services
                 </NavigationMenuTrigger>
@@ -101,8 +101,8 @@ const Navbar = () => {
                             to={service.path}
                             className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
                           >
-                            <div className="text-sm font-medium leading-none">{service.title}</div>
-                            <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
+                            <div className="text-base font-medium leading-none">{service.title}</div>
+                            <p className="line-clamp-2 text-base leading-snug text-muted-foreground">
                               {service.description}
                             </p>
                           </Link>
@@ -117,28 +117,28 @@ const Navbar = () => {
           
           <Link 
             to="/custom-fence-software" 
-            className="px-3 py-2 text-sm font-medium hover:text-cedar transition-colors duration-300"
+            className="px-3 py-2 text-base font-medium hover:text-cedar transition-colors duration-300"
           >
             Fence Genius Software
           </Link>
           
           <Link 
             to="/gallery" 
-            className="px-3 py-2 text-sm font-medium hover:text-cedar transition-colors duration-300"
+            className="px-3 py-2 text-base font-medium hover:text-cedar transition-colors duration-300"
           >
             Gallery
           </Link>
           
           <Link 
             to="/about" 
-            className="px-3 py-2 text-sm font-medium hover:text-cedar transition-colors duration-300"
+            className="px-3 py-2 text-base font-medium hover:text-cedar transition-colors duration-300"
           >
             About
           </Link>
           
           <Link 
             to="/contact-us" 
-            className="px-3 py-2 text-sm font-medium hover:text-cedar transition-colors duration-300"
+            className="px-3 py-2 text-base font-medium hover:text-cedar transition-colors duration-300"
           >
             Contact
           </Link>
