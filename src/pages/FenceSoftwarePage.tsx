@@ -1,4 +1,3 @@
-
 import PageLayout from "@/components/layout/PageLayout";
 import PageHeader from "@/components/ui/PageHeader";
 import SectionHeading from "@/components/ui/SectionHeading";
@@ -60,7 +59,7 @@ const FenceSoftwarePage = () => {
       <PageHeader 
         title="Fence Genius™: Our Exclusive Innovation"
         subtitle="The revolutionary software we developed to transform the fence industry"
-        backgroundImage="https://www.myfence.com/wp-content/uploads/2024/02/Fence-left.webp"
+        backgroundImage="/lovable-uploads/photo-1513836279014-a89f7a76ae86"
       />
       
       {/* Introduction Section */}
@@ -360,17 +359,14 @@ const FenceSoftwarePage = () => {
         <div className="container-custom">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
             <div className="lg:col-span-7">
-              <div className="aspect-video bg-black rounded-lg shadow-xl overflow-hidden">
-                <div className="w-full h-full bg-gray-900 flex items-center justify-center">
-                  <div className="text-center text-white p-8">
-                    <svg className="h-16 w-16 mx-auto mb-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-                    <p className="text-xl mb-2">Fence Genius in Action</p>
-                    <p className="text-gray-400">Watch how our proprietary technology transforms fence installation</p>
-                  </div>
-                </div>
+              <div className="aspect-video bg-[#18222E] rounded-lg shadow-xl overflow-hidden">
+                <iframe 
+                  src="https://www.youtube.com/embed/LM8o-rU8rag"
+                  title="Fence Genius in Action"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className="w-full h-full"
+                />
               </div>
             </div>
             
