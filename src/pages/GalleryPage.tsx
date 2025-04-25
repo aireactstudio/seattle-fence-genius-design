@@ -92,7 +92,7 @@ const GalleryPage = () => {
       <PageHeader 
         title="Our Fence Gallery"
         subtitle="Explore our portfolio of custom cedar fence installations throughout Seattle."
-        backgroundImage="https://www.myfence.com/wp-content/uploads/2024/02/HomePage-fence1.webp"
+        backgroundImage="/lovable-uploads/7a3eee8d-5266-4b5f-a486-30e5b3c0e127.png"
       />
       
       <section className="section-padding">
@@ -167,7 +167,7 @@ const GalleryPage = () => {
             </div>
             <div>
               <img 
-                src="https://seattlefence.com/wp-content/uploads/2024/11/Seattle-Fence-Img02.png" 
+                src="/lovable-uploads/d6aeb487-eef2-4451-a74d-19f62d2e2868.png" 
                 alt="Fence Genius software visualization" 
                 className="rounded-lg shadow-xl"
               />

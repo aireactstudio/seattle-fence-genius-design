@@ -9,7 +9,7 @@ const CedarFencePage = () => {
       <PageHeader 
         title="Cedar Fence Installation"
         subtitle="Premium Western Red Cedar fences designed and built for Seattle homes and businesses."
-        backgroundImage="https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9"
+        backgroundImage="/lovable-uploads/f8f1f382-7e2e-4f9f-99ec-72f7b817ad47.png"
       />
       
       <section className="section-padding">

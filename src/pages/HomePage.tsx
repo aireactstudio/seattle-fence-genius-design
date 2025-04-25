@@ -82,7 +82,7 @@ const HomePage = () => {
       <section className="relative min-h-[80vh] flex items-center">
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.unsplash.com/photo-1472396961693-142e6e269027"
+            src="/lovable-uploads/f8f1f382-7e2e-4f9f-99ec-72f7b817ad47.png"
             alt="Beautiful cedar fence" 
             className="w-full h-full object-cover"
           />
@@ -101,7 +101,7 @@ const HomePage = () => {
               <Button asChild size="lg" className="bg-cedar hover:bg-cedar-dark text-white">
                 <Link to="/contact-us">Get a Free Quote</Link>
               </Button>
-              <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-cedar-dark">
+              <Button asChild variant="outline" size="lg" className="border-white text-white bg-cedar-dark/40 hover:bg-white hover:text-cedar-dark">
                 <Link to="/gallery">View Our Projects</Link>
               </Button>
             </div>

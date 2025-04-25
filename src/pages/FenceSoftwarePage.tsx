@@ -59,7 +59,7 @@ const FenceSoftwarePage = () => {
       <PageHeader 
         title="Fence Genius™: Our Exclusive Innovation"
         subtitle="The revolutionary software we developed to transform the fence industry"
-        backgroundImage="https://images.unsplash.com/photo-1472396961693-142e6e269027"
+        backgroundImage="/lovable-uploads/d6aeb487-eef2-4451-a74d-19f62d2e2868.png"
       />
       
       {/* Introduction Section */}

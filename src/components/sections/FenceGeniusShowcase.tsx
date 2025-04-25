@@ -79,16 +79,11 @@ const FenceGeniusShowcase = () => {
           
           <div className="order-1 lg:order-2 relative">
             <div className="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden shadow-xl">
-              <div className="w-full h-full bg-gray-900 flex items-center justify-center">
-                <div className="text-center text-white p-8">
-                  <svg className="h-16 w-16 mx-auto mb-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                  <p className="text-xl mb-2">Fence Genius Demo</p>
-                  <p className="text-gray-400">See our innovative technology in action</p>
-                </div>
-              </div>
+              <img 
+                src="/lovable-uploads/d6aeb487-eef2-4451-a74d-19f62d2e2868.png" 
+                alt="Fence Genius Software in action" 
+                className="w-full h-full object-cover"
+              />
             </div>
             <div className="absolute -bottom-6 -right-6 bg-white p-6 rounded-lg shadow-lg">
               <p className="text-lg font-semibold text-forest mb-1">Revolutionary Technology</p>

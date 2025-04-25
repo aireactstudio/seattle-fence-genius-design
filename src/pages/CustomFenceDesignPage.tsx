@@ -9,7 +9,7 @@ const CustomFenceDesignPage = () => {
       <PageHeader 
         title="Custom Fence Design"
         subtitle="Creating unique, personalized fence solutions for Seattle homes and businesses."
-        backgroundImage="https://images.unsplash.com/photo-1615729947596-a598e5de0ab3"
+        backgroundImage="/lovable-uploads/d6aeb487-eef2-4451-a74d-19f62d2e2868.png"
       />
       
       <section className="section-padding">

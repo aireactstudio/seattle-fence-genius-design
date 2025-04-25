@@ -10,7 +10,7 @@ const AboutPage = () => {
       <PageHeader 
         title="About Seattle Fence"
         subtitle="Family-owned innovators in the fencing industry since 1994"
-        backgroundImage="https://images.unsplash.com/photo-1433086966358-54859d0ed716"
+        backgroundImage="/lovable-uploads/f8f1f382-7e2e-4f9f-99ec-72f7b817ad47.png"
       />
       
       <AboutSection />
