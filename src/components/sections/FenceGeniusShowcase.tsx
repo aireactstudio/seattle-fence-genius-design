@@ -1,5 +1,5 @@
 
-import { Code, Clock, Sparkles, Brain } from 'lucide-react';
+import { Code, Clock, Sparkles, Brain, Globe, BarChart, FileCheck, Building2 } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 import { Link } from 'react-router-dom';
 
@@ -10,11 +10,15 @@ const FenceGeniusShowcase = () => {
       <div className="container-custom">
         <div className="text-center max-w-3xl mx-auto mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Revolutionizing Fence Installation with Our Proprietary Technology
+            Our Revolutionary Fence Genius Software
           </h2>
-          <p className="text-lg text-gray-700">
-            Experience the future of fencing with our exclusive Fence Genius software - developed and owned by Seattle Fence to transform how custom fences are designed, built, and installed.
+          <p className="text-lg text-gray-700 mb-4">
+            Seattle Fence is proud to be the creator and owner of Fence Genius™ - our proprietary technology that has completely 
+            revolutionized how custom fences are designed, built, and installed.
           </p>
+          <div className="inline-block bg-cedar text-white px-4 py-2 rounded-md">
+            <p className="font-medium">Exclusive to Seattle Fence - Experience the Future of Fencing</p>
+          </div>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
@@ -25,21 +29,23 @@ const FenceGeniusShowcase = () => {
                   <Brain className="h-6 w-6 text-forest" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold mb-2">Precision Design with AI</h3>
+                  <h3 className="text-xl font-semibold mb-2">See Your Fence Before We Build It</h3>
                   <p className="text-gray-600">
-                    Our iOS app captures exact measurements between posts and terrain contours. The software's algorithms create a perfect fence design that follows your property's unique landscape.
+                    Our software creates stunning 3D visualizations of your custom fence before construction begins. You'll see exactly 
+                    how your fence follows your property's unique topography, ensuring complete confidence in your investment.
                   </p>
                 </div>
               </div>
               
               <div className="flex items-start gap-4">
                 <div className="bg-cedar-light p-3 rounded-lg">
-                  <Sparkles className="h-6 w-6 text-cedar" />
+                  <Globe className="h-6 w-6 text-cedar" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold mb-2">Pre-fabricated Excellence</h3>
+                  <h3 className="text-xl font-semibold mb-2">Perfect Terrain Integration</h3>
                   <p className="text-gray-600">
-                    Once designed, your custom panels are built in our climate-controlled facility. Each panel is precisely crafted to match your terrain, ensuring a perfect fit and superior quality.
+                    Fence Genius uses your property's actual topographic data to create a fence that perfectly follows your terrain. 
+                    The software's advanced algorithms ensure a smooth visual flow along the top while precisely following ground contours.
                   </p>
                 </div>
               </div>
@@ -51,19 +57,21 @@ const FenceGeniusShowcase = () => {
                 <div>
                   <h3 className="text-xl font-semibold mb-2">2-Hour Installation</h3>
                   <p className="text-gray-600">
-                    Pre-built panels mean lightning-fast, quiet installations. What used to take days now takes just hours, with minimal disruption to your property and neighborhood.
+                    Traditional fence installation takes days of noisy on-site construction. With Fence Genius, we pre-build your custom panels 
+                    off-site and can complete installation in just 2 hours, with minimal disruption to your property and neighborhood.
                   </p>
                 </div>
               </div>
               
               <div className="flex items-start gap-4">
                 <div className="bg-cedar-light p-3 rounded-lg">
-                  <Code className="h-6 w-6 text-cedar" />
+                  <Building2 className="h-6 w-6 text-cedar" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold mb-2">See Before You Buy</h3>
+                  <h3 className="text-xl font-semibold mb-2">Superior Quality Control</h3>
                   <p className="text-gray-600">
-                    Our software provides detailed 3D visualizations of your fence before construction begins. Know exactly what you're getting and make informed decisions with complete confidence.
+                    By building your fence panels in our climate-controlled facility, we achieve superior craftsmanship and consistency. 
+                    Each panel is precisely crafted to match your design, ensuring maximum material yield and highest quality finish.
                   </p>
                 </div>
               </div>
@@ -77,8 +85,8 @@ const FenceGeniusShowcase = () => {
               className="rounded-lg shadow-xl"
             />
             <div className="absolute -bottom-6 -right-6 bg-white p-6 rounded-lg shadow-lg">
-              <p className="text-lg font-semibold text-forest mb-1">Lightning Fast Installation</p>
-              <p className="text-sm text-gray-600">2-hour install time with pre-built panels</p>
+              <p className="text-lg font-semibold text-forest mb-1">Revolutionary Technology</p>
+              <p className="text-sm text-gray-600">Designed & owned exclusively by Seattle Fence</p>
             </div>
           </div>
         </div>
@@ -86,14 +94,15 @@ const FenceGeniusShowcase = () => {
         <div className="text-center">
           <div className="max-w-2xl mx-auto mb-8">
             <h3 className="text-2xl font-bold mb-4">
-              Experience the Most Innovative Fence Installation in Seattle
+              The Only Seattle Fence Company with Proprietary Design Software
             </h3>
             <p className="text-gray-600 mb-6">
-              Our revolutionary Fence Genius software delivers unmatched precision, quality, and efficiency. See why we're leading the industry in custom fence design and installation.
+              From the moment we capture your property's exact measurements with our iOS app to the final 2-hour installation, 
+              Fence Genius delivers a level of precision, quality, and efficiency that's simply impossible with traditional methods.
             </p>
           </div>
           <Button asChild size="lg" className="bg-cedar hover:bg-cedar-dark text-white">
-            <Link to="/custom-fence-software">Learn More About Fence Genius</Link>
+            <Link to="/custom-fence-software">Discover How Fence Genius Works</Link>
           </Button>
         </div>
       </div>
